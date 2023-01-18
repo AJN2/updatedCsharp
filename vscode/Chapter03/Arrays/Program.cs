@@ -1,15 +1,18 @@
-﻿string[] names; // can reference any size array of strings
+﻿using static System.Console;
+string[] names; // can reference any size array of strings
+Console.WriteLine("Hello, Askiaa J. Nash!");
+Console.WriteLine("Version: {0}", Environment.Version.ToString());
 
 // allocating memory for four strings in an array
 names = new string[4];
 
 // storing items at index positions
-names[0] = "Kate";
-names[1] = "Jack";
-names[2] = "Rebecca";
-names[3] = "Tom";
+names[0] = "Askiaa";
+names[1] = "Robert";
+names[2] = "Keo";
+names[3] = "Honog";
 
-string[] names2 = new[] { "Kate", "Jack", "Rebecca", "Tom" };
+string[] names2 = new[] { "Mikyhial", "Fershaun", "Hunter", "Spencer" };
 
 // looping through the names
 for (int i = 0; i < names2.Length; i++)
