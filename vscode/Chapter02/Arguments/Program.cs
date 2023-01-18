@@ -1,4 +1,7 @@
-﻿WriteLine($"There are {args.Length} arguments.");
+﻿Console.WriteLine("Hello, Askiaa J. Nash!");
+Console.WriteLine("Version: {0}", Environment.Version.ToString());
+
+WriteLine($"There are {args.Length} arguments.");
 
 foreach (string arg in args)
 {
